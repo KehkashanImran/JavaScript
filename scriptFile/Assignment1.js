@@ -42,7 +42,6 @@ if ( fitraMethod=='wheat' || fitraMethod== 'WHEAT'){
     fitra=familyMembers*250;
     alert("Your Fitra amount for the whole family will be " + fitra);
 }
-
  else if
  
  ( fitraMethod=='barley' ||fitraMethod== 'BARLEY'){
@@ -128,16 +127,8 @@ Make sure to use descriptive variable names and comment on your code for clarity
 
 */
 //CODING FOR TASK 5
-/*
-const contactNames=[];
-var contactNumbers=[];
-for(i=1; i<=3;i++){
-    contactNames[].push("kesh");
-}
-for(i=1; i<=3;i++){
-    alert(contactNames[i]);
-}
-*/
+
+
 //CODING FOR TASK 5
 /* 
 const contactNames=[];                               // define our array
@@ -154,6 +145,13 @@ contactNumbers.push(prompt('Enter Contact Numbers ' + (i+1)));
     */
 
    //TASK 6
+   /* 
+   Create an Array that contains different products, and get input from the user in which you
+ask your user to give the position of that element he/she wants. Now remove that Item
+from your array and console the removed item, Also display the remaining items in the
+array and total number of items remaining.
+2
+   */
 /* 
    var productNames=["1:coffee Maker\n" , "2: Blender\n","3 : Mixer\n", " 4 : Toaster\n" ,"5 : Microwave\n", " 6 : Stove\n", "7 : Kettle\n" , "8 : Rice Cooker"];
    //alert("Product Names \n" + productNames["1:coffee Maker","2:Blender","3:Mixer", "4:Toaster", "5:Microwave", "6:Stove", "7:Kettle", "8:Rice Cooker"]);
